@@ -1,0 +1,1022 @@
+{
+    "01": {
+        "name": "01",
+        "type": "normal",
+        "level": 0,
+        "command": "./practica2SG mapas/mapa30.map 1 0 5 5 2 10 10 4 12 5",
+        "valid_instantes": [2994],
+        "valid_battery": [2987],
+        "valid_time": [0, 0.02],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 283,
+        "abiertos": 405,
+        "cerrados": 283
+    },
+    "02": {
+        "name": "02",
+        "type": "normal",
+        "level": 0,
+        "command": "./practica2SG mapas/mapa100.map 1 0 5 5 2 10 10 4 95 80",
+        "valid_instantes": [2946],
+        "valid_battery": [2380],
+        "valid_time": [0.04, 5],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["avoid_repeated"],
+        "iteraciones": 65825,
+        "abiertos": 2602,
+        "cerrados": 65825
+    },
+    "11": {
+        "name": "11",
+        "type": "normal",
+        "level": 1,
+        "command": "./practica2SG ./mapas/mapa30.map 1 1 9 3 0 7 3 6 3 3",
+        "valid_instantes": [2994],
+        "valid_battery": [2990],
+        "valid_time": [0, 0.05],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 479,
+        "abiertos": 1504,
+        "cerrados": 479
+    },
+    "12": {
+        "name": "12",
+        "type": "normal",
+        "level": 1,
+        "command": "./practica2SG ./mapas/mapa30.map 1 1 24 12 6 18 13 6 18 15",
+        "valid_instantes": [2976],
+        "valid_battery": [2957],
+        "valid_time": [0.3, 10],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 369049,
+        "abiertos": 394159,
+        "cerrados": 369049
+    },
+    "13": {
+        "name": "13",
+        "type": "normal",
+        "level": 1,
+        "command": "./practica2SG ./mapas/mapa30_nuevo.map 1 1 8 9 4 5 5 6 3 3",
+        "valid_instantes": [2994],
+        "valid_battery": [2786],
+        "valid_time": [0, 0.03],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 390,
+        "abiertos": 730,
+        "cerrados": 390
+    },
+    "14": {
+        "name": "14",
+        "type": "normal",
+        "level": 1,
+        "command": "./practica2SG mapas/mapa30.map 1 1 25 11 6 5 10 6 3 3",
+        "valid_instantes": [2980],
+        "valid_battery": [2896],
+        "valid_time": [0.01, 0.5],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 19543,
+        "abiertos": 45637,
+        "cerrados": 19543
+    },
+    "15": {
+        "name": "15",
+        "type": "normal",
+        "level": 1,
+        "command": "./practica2SG mapas/mapa30.map 1 1 9 18 4 3 15 1 3 3",
+        "valid_instantes": [2979],
+        "valid_battery": [2596],
+        "valid_time": [5, 50],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 1795818,
+        "abiertos": 3021943,
+        "cerrados": 1795818
+    },
+    "16": {
+        "name": "16",
+        "type": "normal",
+        "level": 1,
+        "command": "./practica2SG mapas/mapa30.map 1 1 8 13 0 11 18 0 18 12",
+        "valid_instantes": [2979],
+        "valid_battery": [2741],
+        "valid_time": [20, 150],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 4455686,
+        "abiertos": 5538096,
+        "cerrados": 4455686
+    },
+
+    "21": {
+        "name": "21",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/mapa30.map 1 2 3 13 4 4 4 4 13 13",
+        "valid_instantes": [2992],
+        "valid_battery": [2981],
+        "valid_time": [0, 0.07],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 1562,
+        "abiertos": 968,
+        "cerrados": 941
+    },
+    "22": {
+        "name": "22",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/mapa50.map 1 2 19 7 6 3 3 3 16 13",
+        "valid_instantes": [2982],
+        "valid_battery": [2888],
+        "valid_time": [0.02, 0.6],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["use_items", "operator<"],
+        "iteraciones": 77460,
+        "abiertos": 14254,
+        "cerrados": 41031
+    },
+    "23": {
+        "name": "23",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/paldea2.map 1 2 82 49 0 73 52 0 25 25",
+        "valid_instantes": [2929],
+        "valid_battery": [2845],
+        "valid_time": [0.1, 4],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["just_one_item", "sonambulo_obstaculo", "acabar_cerrados", "heuristic"],
+        "iteraciones": 187069,
+        "abiertos": 25979,
+        "cerrados": 95926
+    },
+    "24": {
+        "name": "24",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/paldea2.map 1 2 35 79 0 50 63 0 85 16",
+        "valid_instantes": [2937],
+        "valid_battery": [2930],
+        "valid_time": [0.05, 1.5],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["just_one_item", "start_bikini_jugador", "heuristic"],
+        "iteraciones": 120622,
+        "abiertos": 26932,
+        "cerrados": 64600
+    },
+    "25": {
+        "name": "25",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/scape.map 1 2 9 13 6 6 9 0 9 25",
+        "valid_instantes": [2964],
+        "valid_battery": [2936],
+        "valid_time": [0, 0.1],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["just_one_item"],
+        "iteraciones": 2501,
+        "abiertos": 258,
+        "cerrados": 1700
+    },
+    "26": {
+        "name": "26",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/2ez.map 1 2 25 15 0 4 15 4 5 15",
+        "valid_instantes": [2986],
+        "valid_battery": [2986],
+        "valid_time": [0, 0.1],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["no_recarga"],
+        "iteraciones": 3996,
+        "abiertos": 748,
+        "cerrados": 2108
+    },
+    "27": {
+        "name": "27",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/mapa50.map 1 2 22 14 0 25 7 0 19 14",
+        "valid_instantes": [2998],
+        "valid_battery": [2995],
+        "valid_time": [0, 0.003],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["coste_current"],
+        "iteraciones": 21,
+        "abiertos": 46,
+        "cerrados": 18
+    },
+    "28": {
+        "name": "28",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/ruinados.map 1 2 90 72 6 66 61 5 10 18",
+        "valid_instantes": [2895],
+        "valid_battery": [2744],
+        "valid_time": [0.08, 3],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["sonambulo_obstaculo"],
+        "iteraciones": 136774,
+        "abiertos": 2169,
+        "cerrados": 70038
+    },
+    "29": {
+        "name": "29",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG ./mapas/ruinados.map 1 2 90 72 6 93 82 3 10 18",
+        "valid_instantes": [2895],
+        "valid_battery": [2731],
+        "valid_time": [0.08, 3],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["sonambulo_obstaculo"],
+        "iteraciones": 134005,
+        "abiertos": 1914,
+        "cerrados": 68520
+    },
+    "210": {
+        "name": "210",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG mapas/marymonte.map 1 2 8 49 6 3 3 3 9 31",
+        "valid_instantes": [2982],
+        "valid_battery": [2855],
+        "valid_time": [0, 0.05],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["zapatillas_siguiente_casilla"],
+        "iteraciones": 1447,
+        "abiertos": 529,
+        "cerrados": 941
+    },
+    "211": {
+        "name": "211",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG mapas/marymonte.map 1 2 67 62 6 3 3 3 67 61",
+        "valid_instantes": [2999],
+        "valid_battery": [2900],
+        "valid_time": [0, 0.001],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["bikini_siguiente_casilla"],
+        "iteraciones": 11,
+        "abiertos": 16,
+        "cerrados": 8
+    },
+    "212": {
+        "name": "212",
+        "type": "normal",
+        "level": 2,
+        "command": "./practica2SG mapas/paldea2.map 1 2 60 94 0 46 43 0 39 3",
+        "valid_instantes": [2918],
+        "valid_battery": [2616],
+        "valid_time": [0.1, 5],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": [],
+        "iteraciones": 218692,
+        "abiertos": 36389,
+        "cerrados": 114600
+    },
+
+    "31": {
+        "name": "31",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG ./mapas/mapa30.map 1 3 3 13 6 8 11 6 8 14",
+        "valid_instantes": [2991],
+        "valid_battery": [2985],
+        "valid_time": [0, 0.1],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["heuristic"],
+        "iteraciones": 862,
+        "abiertos": 1747,
+        "cerrados": 530
+    },
+    "32": {
+        "name": "32",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG ./mapas/mapa30.map 1 3 10 20 0 12 10 2 8 20",
+        "valid_instantes": [2961],
+        "valid_battery": [2946],
+        "valid_time": [50, 250],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["coste_current"],
+        "iteraciones": 15793716,
+        "abiertos": 6347284,
+        "cerrados": 6107221
+    },
+    "33": {
+        "name": "33",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG ./mapas/mapa30.map 1 3 3 15 0 8 17 6 8 23",
+        "valid_instantes": [2977],
+        "valid_battery": [2748],
+        "valid_time": [0.1, 6],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["coste_current"],
+        "iteraciones": 398157,
+        "abiertos": 159091,
+        "cerrados": 173047
+    },
+    "34": {
+        "name": "34",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 0 3 22 19 2 14 18 2 20 13",
+        "valid_instantes": [2967],
+        "valid_battery": [2908],
+        "valid_time": [10, 160],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["start_bikini_jugador"],
+        "iteraciones": 6824930,
+        "abiertos": 482582,
+        "cerrados": 2402725
+    },
+    "35": {
+        "name": "35",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 0 3 14 19 2 22 20 2 18 13",
+        "valid_instantes": [2972],
+        "valid_battery": [2923],
+        "valid_time": [5, 60],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["start_zapas_jugador"],
+        "iteraciones": 3636751,
+        "abiertos": 299029,
+        "cerrados": 1281480
+    },
+    "36": {
+        "name": "36",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 0 3 14 18 2 22 19 2 20 13",
+        "valid_instantes": [2962, 2964],
+        "valid_battery": [2900],
+        "valid_time": [20, 200],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["start_bikini_sonambulo"],
+        "iteraciones": 9107199,
+        "abiertos": 632564,
+        "cerrados": 3176255
+    },
+    "37": {
+        "name": "37",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 0 3 22 20 2 14 19 2 18 13",
+        "valid_instantes": [2950],
+        "valid_battery": [2905],
+        "valid_time": [20, 200],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["start_zapas_sonambulo"],
+        "iteraciones": 8644357,
+        "abiertos": 653803,
+        "cerrados": 2998860
+    },
+    "38": {
+        "name": "38",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 0 3 14 19 2 22 19 2 19 13",
+        "valid_instantes": [2964, 2966],
+        "valid_battery": [2908],
+        "valid_time": [20, 150],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["start_item_both"],
+        "iteraciones": 5999549,
+        "abiertos": 437167,
+        "cerrados": 2145270
+    },
+    "39": {
+        "name": "39",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 1 3 12 22 0 6 22 4 9 26",
+        "valid_instantes": [2978],
+        "valid_battery": [2966],
+        "valid_time": [0.1, 5],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["start_zapas_sonambulo"],
+        "iteraciones": 306986,
+        "abiertos": 80208,
+        "cerrados": 131834
+    },
+    "310": {
+        "name": "310",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 1 3 14 19 4 22 19 0 5 23",
+        "valid_instantes": [2969],
+        "valid_battery": [2941],
+        "valid_time": [0.1, 30],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["just_one_item", "start_item_both", "sonambulo_obstaculo"],
+        "iteraciones": 1794080,
+        "abiertos": 234898,
+        "cerrados": 659181
+    },
+    "311": {
+        "name": "311",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG mapas/lumi25.map 1 3 12 4 6 3 12 2 11 6",
+        "valid_instantes": [2974],
+        "valid_battery": [2970],
+        "valid_time": [0.1, 10],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["heuristic"],
+        "iteraciones": 131842,
+        "abiertos": 55472,
+        "cerrados": 60918
+    },
+    "312": {
+        "name": "312",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG ./mapas/scape2.map 1 3 9 13 2 9 22 2 9 25",
+        "valid_instantes": [2955],
+        "valid_battery": [2917],
+        "valid_time": [0.1, 10],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["use_items", "no_recarga"],
+        "iteraciones": 106329,
+        "abiertos": 39159,
+        "cerrados": 48320
+    },
+    "313": {
+        "name": "313",
+        "type": "normal",
+        "level": 3,
+        "command": "./practica2SG ./mapas/mapa30.map 1 3 21 10 4 18 18 6 18 11",
+        "valid_instantes": [2974,2978],
+        "valid_battery": [2974],
+        "valid_time": [0.1, 15],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["sonambulo_obstaculo"],
+        "iteraciones": 149946,
+        "abiertos": 152592,
+        "cerrados": 78497
+    },
+    "P1": {
+        "name": "P1",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/mapa30.map 1 4 4 4 6 12 12 2 8 8 16 6 26 9 25 16 3 3 5 10 16 14 18 10 21 4 7 4 24 4 12 3 6 15 25 18 8 19 15 14 23 15 26 8 10 24 19 26 25 7 16 11 22 15 20 15 22 19 10 20 4 13 26 24 9 6 26 10 17 19 25 13 24 20 26 19 12 18 8 23 9 13 6 5 8 16 12 5 3 14 11 22 11 8 6 17 7 4 21 3 23 4 15 5 7 23 21 19 4 15 6 13 24 17 6 26 5 4 24 10 16 17 13 20 22 9 26 22 22 24 14 4 24 26 7 18 6 21 9 9 18 6 19 15 16 21 3 14 13 10 25 13 17 24 7 20 14 14 9 21 5 18 20 20 19 10 5 18 18 21 9 22 20 19 7 15 26 20 10 17 17 19 8 23 8 9 9 5 20 3 20 11 6 23 16 8 26 14 17 4 8 25 14 13 25 14 8 5 20 21 4 18 14 25",
+        "umbral1_": 68,
+        "umbral2_": 140,
+        "umbral3_": 400,
+        "umbral1": 60,
+        "umbral2": 167,
+        "umbral3": 443
+    },
+    "P2": {
+        "name": "P2",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/mapa50.map 1 4 28 25 4 28 20 2 36 23 39 8 46 26 39 34 26 37 18 46 3 46 3 3 10 17 39 45 9 16 38 13 27 23 31 18 45 31 35 7 12 6 40 7 20 6 10 25 41 30 14 31 26 24 38 26 38 20 44 14 17 40 45 3 4 9 33 44 17 3 3 11 42 13 26 18 38 25 33 26 46 46 36 14 36 31 17 34 8 22 44 41 16 11 44 17 29 32 42 21 46 19 40 34 45 24 46 7 44 32 21 30 14 39 15 22 11 9 13 27 20 8 45 5 6",
+        "umbral1_": 35,
+        "umbral2_": 110,
+        "umbral3_": 180,
+        "umbral1": 34,
+        "umbral2": 102,
+        "umbral3": 210
+    },
+    "P3": {
+        "name": "P3",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/mapa75.map 1 4 11 47 0 6 47 4 9 51 19 33 29 31 33 31 54 43 51 67 59 68 57 29 47 16 68 6 29 4 3 32 14 25 57 20 41 35 47 27 38 71 68 47 53 10 18 10 60 11 16 38 62 45 22 47 39 37 57 39 57 30 66 21 26 60 68 5 6 14 49 66 26 4 4 17 63 19 40 28 57 38 50 39 69 69 54 21 55 47 26 51 12 33 66 62 24 17 67 26 51 71 44 49 64 32 69 29",
+        "umbral1_": 22,
+        "umbral2_": 60,
+        "umbral3_": 90,
+        "umbral1": 27,
+        "umbral2": 62,
+        "umbral3": 113
+    },
+    "P4": {
+        "name": "P4",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/mapa100.map 1 4 63 31 6 63 32 2 66 40 75 24 85 36 83 6 60 10 33 11 84 7 86 40 68 77 79 91 19 33 76 27 55 47 62 36 51 95 91 63 71 14 24 13 80 15 21 51 83 61 29 63 52 49 77 52 76 40 89 28 35 80 91 6 94 52 8 19 66 89 34 6 6 23 85 26 53 37 76 51 66 53 3 43",
+        "umbral1_": 14,
+        "umbral2_": 60,
+        "umbral3_": 90,
+        "umbral1": 23,
+        "umbral2": 40,
+        "umbral3": 60
+    },
+    "P5": {
+        "name": "P5",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/pinkworld.map 1 4 46 26 2 41 27 2 44 46 26 59 26 10 59 10 59 63 70 38 41 35 47 27 38 71 68 47 18 10 60 11 30 9 66 21 68 5 71 39 6 14 49 66 4 17 40 28 50 39 69 69 12 33 66 62 67 26 51 71 44 49 64 32 69 29 68 36",
+        "umbral1_": 20,
+        "umbral2_": 30,
+        "umbral3_": 50,
+        "umbral1": 17,
+        "umbral2": 25,
+        "umbral3": 40
+    },
+    "P6": {
+        "name": "P6",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/islas.map 1 4 47 53 2 49 53 2 41 56 52 53 74 54 74 47 46 42 71 56 83 52 58 65 85 43 92 39 81 68 91 48 21 95 92 14 88 64 43 61 28 78 30 44 22 18 27 55 41 16 90 10 12 49 76 68 38 74",
+        "umbral1_": 9,
+        "umbral2_": 40,
+        "umbral3_": 70,
+        "umbral1": 12,
+        "umbral2": 30,
+        "umbral3": 53
+    },
+    "P7": {
+        "name": "P7",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/marymonte.map 1 4 46 26 2 41 27 2 44 46 26 59 26 10 59 10 59 63 70 38 41 35 47 27 38 71 68 47 18 10 60 11 30 9 66 21 68 5 71 39 6 14 49 66 4 17 40 28 50 39 69 69 12 33 66 62 67 26 51 71 44 49 64 32 69 29 68 36",
+        "umbral1_": 20,
+        "umbral2_": 30,
+        "umbral3_": 40,
+        "umbral1": 17,
+        "umbral2": 25,
+        "umbral3": 40
+    },
+    "P8": {
+        "name": "P8",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG mapas/medieval.map 1 4 3 3 2 9 20 2 9 88 21 75 34 62 48 16 57 28 72 24 89 27 84 51 61 93 13 48 9 87 84 39 91 19 33 76 87 39 57 29 84 53 96 96 63 3 88 54 32 44 19 75 29 95 96 48 21 33 87 41 9 20 13 48 9 87 84 39 91 19 33 76 87 39",
+        "umbral1_": 18,
+        "umbral2_": 30,
+        "umbral3_": 60,
+        "umbral1": 16,
+        "umbral2": 45,
+        "umbral3": 60
+    },
+    "P9": {
+        "name": "P9",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG ./mapas/lumi50_2.map 1 4 5 16 4 34 15 4 46 25 46 11 21 17 30 26 16 35 10 44 37 44 6 44 46 36 11 21 46 46 3 3 39 26 38 26",
+        "umbral1": 32,
+        "umbral2": 50,
+        "umbral3": 70
+    },
+    "P10": {
+        "name": "P10",
+        "type": "public",
+        "level": 4,
+        "command": "./practica2SG ./mapas/lumi25.map 1 4 3 3 0 21 9 4 14 21 16 5 16 13 7 9 21 15 6 14 16 10 20 7 4 4 19 21 14 21 16 5 16 13 7 9 21 15 6 14 16 10 20 7 4 4 19 21 14 21 16 5 16 13 7 9 21 15 6 14 16 10 20 7 4 4 19 21 14 21 16 5 16 13 7 9 21 15 6 14 16 10 20 7 4 4 19 21",
+        "umbral1": 64,
+        "umbral2": 84,
+        "umbral3": 105
+    },
+    "S1": {
+        "name": "S1",
+        "type": "special",
+        "level": 4,
+        "command": "./practica2SG mapas/paldea2.map 1 4 91 45 2 91 50 6 87 51 82 48 74 47 67 48 67 65 70 73 64 70 72 28 59 10 54 29 47 29 53 81 45 77 49 62 42 62 43 39 49 12 85 16 23 54 30 57 9 45 25 33 31 81 87 51 67 47 63 38 46 43",
+        "umbral1_": 15,
+        "umbral2_": 60,
+        "umbral3_": 100,
+        "umbral1": 14,
+        "umbral2": 40,
+        "umbral3": 105
+    },
+    "S2": {
+        "name": "S2",
+        "type": "special",
+        "level": 4,
+        "command": "./practica2SG mapas/sleepingpool.map 1 4 20 11 6 6 6 0 5 5 8 16 5 7 14 18 7 5 19 21 7 7 24 20 5 6 4 12 7 6 15 25 6 7 19 15 6 5 8 23 6 6 15 23 5 5 12 26 5 7 8 10 7 5 5 19 7 7 26 10 5 6 7 16 7 6 11 22 6 7 15 20 6 5 8 22 6 6 19 10 5 5 20 4 5 7 13 26 7 5 24 9 7 7 6 26 5 6 10 20 7 6 19 25 6 7 11 24 6 5 14 16 6 6 4 26 5 5 19 12 5 7 13 6 7 5 5 9 7 7 16 12 5 6 14 22 7 6 20 11 6 7 22 11 6 5 10 6 6 6 17 7",
+        "umbral1_": 10,
+        "umbral2_": 100,
+        "umbral3_": 200,
+        "umbral1": 20,
+        "umbral2": 60,
+        "umbral3": 250
+    },
+    "S3": {
+        "name": "S3",
+        "type": "special",
+        "level": 4,
+        "command": "./practica2SG mapas/paldea_con_foso.map 1 4 91 45 2 55 47 0 87 51 82 48 74 47 67 48 67 65 70 73 64 70 72 28 59 10 54 29 47 29 53 81 45 77 49 62 42 62 43 39 49 12 85 16 23 54 30 57 9 45 25 33 31 81 87 51 67 47 63 38 46 43",
+        "umbral1_": 8,
+        "umbral2_": 14,
+        "umbral3_": 19,
+        "umbral1": 10,
+        "umbral2": 20,
+        "umbral3": 40
+    },
+    "S4": {
+        "name": "S4",
+        "type": "special",
+        "level": 4,
+        "command": "./practica2SG mapas/luminaliaZA2.map 1 4 84 39 4 66 35 6 68 62 46 72 29 47 42 29 70 35 87 23 36 94 36 6 3 50 51 50 50 18 78 46 66 80 46 86 32 28 55 21 17 62 20 38 78 60 96 3 3 3 5 96 72 96 48 47 48 52 53 47 53 52 51 50",
+        "umbral1": 12,
+        "umbral2": 30,
+        "umbral3": 60
+    },
+    "H1": {
+        "name": "H1",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 20,
+        "umbral2_": 90,
+        "umbral3_": 140,
+        "umbral1": 24,
+        "umbral2": 54,
+        "umbral3": 165
+    },
+    "H2": {
+        "name": "H2",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 67,
+        "umbral2_": 160,
+        "umbral3_": 300,
+        "umbral1": 71,
+        "umbral2": 153,
+        "umbral3": 345
+    },
+    "H3": {
+        "name": "H3",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 10,
+        "umbral2_": 50,
+        "umbral3_": 90,
+        "umbral1": 12,
+        "umbral2": 48,
+        "umbral3": 135
+    },
+    "H4": {
+        "name": "H4",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 26,
+        "umbral2_": 80,
+        "umbral3_": 130,
+        "umbral1": 30,
+        "umbral2": 80,
+        "umbral3": 135
+    },
+    "H5": {
+        "name": "H5",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 49,
+        "umbral2_": 62,
+        "umbral3_": 100,
+        "umbral1": 44,
+        "umbral2": 90,
+        "umbral3": 180
+    },
+    "H6": {
+        "name": "H6",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 13,
+        "umbral2_": 20,
+        "umbral3_": 30,
+        "umbral1": 10,
+        "umbral2": 27,
+        "umbral3": 37
+    },
+    "H7": {
+        "name": "H7",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 10,
+        "umbral2_": 50,
+        "umbral3_": 80,
+        "umbral1": 17,
+        "umbral2": 45,
+        "umbral3": 67
+    },
+    "H8": {
+        "name": "H8",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 65,
+        "umbral2_": 120,
+        "umbral3_": 400,
+        "umbral1": 46,
+        "umbral2": 131,
+        "umbral3": 324
+    },
+    "H9": {
+        "name": "H9",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1_": 65,
+        "umbral2_": 120,
+        "umbral3_": 400,
+        "umbral1": 6,
+        "umbral2": 15,
+        "umbral3": 30
+    },
+    "H10": {
+        "name": "H10",
+        "type": "private",
+        "level": 4,
+        "command": "NOPE",
+        "umbral1": 91,
+        "umbral2": 165,
+        "umbral3": 262
+    },
+
+    "0E1": {
+        "type": "eval",
+        "level": 0,
+        "command": "./practica2SG mapas/mapa30.map 1 0 5 5 2 10 10 4 12 5",
+        "valid_instantes": [
+            2994
+        ],
+        "valid_battery": [
+            2987
+        ],
+        "valid_time": [
+            0,
+            0.02
+        ],
+        "valid_objs": [
+            1
+        ],
+        "valid_cols": [
+            0
+        ],
+        "flags": [],
+        "iteraciones": 283,
+        "abiertos": 405,
+        "cerrados": 283
+    },
+    "1E1": {
+        "type": "eval",
+        "level": 1,
+        "command": "./practica2SG ./mapas/mapa30.map 1 1 9 3 0 7 3 6 3 3",
+        "valid_instantes": [
+            2994
+        ],
+        "valid_battery": [
+            2990
+        ],
+        "valid_time": [
+            0,
+            0.05
+        ],
+        "valid_objs": [
+            1
+        ],
+        "valid_cols": [
+            0
+        ],
+        "flags": [],
+        "iteraciones": 479,
+        "abiertos": 1504,
+        "cerrados": 479
+    },
+    "1E2": {
+        "type": "eval",
+        "level": 1,
+        "command": "./practica2SG ./mapas/mapa30.map 1 1 24 12 6 18 13 6 18 15",
+        "valid_instantes": [
+            2976
+        ],
+        "valid_battery": [
+            2957
+        ],
+        "valid_time": [
+            0.3,
+            10
+        ],
+        "valid_objs": [
+            1
+        ],
+        "valid_cols": [
+            0
+        ],
+        "flags": [],
+        "iteraciones": 369049,
+        "abiertos": 394159,
+        "cerrados": 369049
+    },
+    "2E1": {
+        "type": "eval",
+        "level": 2,
+        "command": "./practica2SG ./mapas/mapa30.map 1 2 3 13 4 4 4 4 13 13",
+        "valid_instantes": [
+            2992
+        ],
+        "valid_battery": [
+            2981
+        ],
+        "valid_time": [
+            0,
+            0.07
+        ],
+        "valid_objs": [
+            1
+        ],
+        "valid_cols": [
+            0
+        ],
+        "flags": [],
+        "iteraciones": 1562,
+        "abiertos": 968,
+        "cerrados": 941
+    },
+    "2E2": {
+        "type": "eval",
+        "level": 2,
+        "command": "./practica2SG ./mapas/mapa50.map 1 2 19 7 6 3 3 3 16 13",
+        "valid_instantes": [
+            2982
+        ],
+        "valid_battery": [
+            2888
+        ],
+        "valid_time": [
+            0.02,
+            0.6
+        ],
+        "valid_objs": [
+            1
+        ],
+        "valid_cols": [
+            0
+        ],
+        "flags": [
+            "use_items",
+            "operator<"
+        ],
+        "iteraciones": 77460,
+        "abiertos": 14254,
+        "cerrados": 41031
+    },
+    "2E3": {
+        "type": "eval",
+        "level": 2,
+        "command": "./practica2SG ./mapas/paldea2.map 1 2 82 49 0 73 52 0 25 25",
+        "valid_instantes": [
+            2929
+        ],
+        "valid_battery": [
+            2845
+        ],
+        "valid_time": [
+            0.1,
+            4
+        ],
+        "valid_objs": [
+            1
+        ],
+        "valid_cols": [
+            0
+        ],
+        "flags": [
+            "just_one_item",
+            "sonambulo_obstaculo",
+            "acabar_cerrados",
+            "heuristic"
+        ],
+        "iteraciones": 187069,
+        "abiertos": 25979,
+        "cerrados": 95926
+    },
+    "3E1": {
+        "type": "eval",
+        "level": 3,
+        "command": "./practica2SG mapas/lumi25.map 1 3 12 4 6 3 12 2 11 6",
+        "valid_instantes": [
+            2974
+        ],
+        "valid_battery": [
+            2970
+        ],
+        "valid_time": [
+            0.1,
+            10
+        ],
+        "valid_objs": [
+            1
+        ],
+        "valid_cols": [
+            0
+        ],
+        "flags": [
+            "heuristic"
+        ],
+        "iteraciones": 131842,
+        "abiertos": 55472,
+        "cerrados": 60918
+    },
+    "3E2": {
+        "type": "eval",
+        "level": 3,
+        "command": "./practica2SG ./mapas/mapa30.map 1 3 3 15 0 8 17 6 8 23",
+        "valid_instantes": [2977],
+        "valid_battery": [2748],
+        "valid_time": [0.1, 6],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["coste_current"],
+        "iteraciones": 398157,
+        "abiertos": 159091,
+        "cerrados": 173047
+    },
+    "3E3": {
+        "type": "eval",
+        "level": 3,
+        "command": "./practica2SG mapas/scape2.map 1 3 12 22 0 6 22 4 9 26",
+        "valid_instantes": [2978],
+        "valid_battery": [2966],
+        "valid_time": [0.1, 5],
+        "valid_objs": [1],
+        "valid_cols": [0],
+        "flags": ["start_zapas_sonambulo"],
+        "iteraciones": 306986,
+        "abiertos": 80208,
+        "cerrados": 131834
+    },
+    "4E1": {
+        "type": "eval",
+        "level": 4,
+        "command": "./practica2SG mapas/mapa30.map 1 4 4 4 6 12 12 2 8 8 16 6 26 9 25 16 3 3 5 10 16 14 18 10 21 4 7 4 24 4 12 3 6 15 25 18 8 19 15 14 23 15 26 8 10 24 19 26 25 7 16 11 22 15 20 15 22 19 10 20 4 13 26 24 9 6 26 10 17 19 25 13 24 20 26 19 12 18 8 23 9 13 6 5 8 16 12 5 3 14 11 22 11 8 6 17 7 4 21 3 23 4 15 5 7 23 21 19 4 15 6 13 24 17 6 26 5 4 24 10 16 17 13 20 22 9 26 22 22 24 14 4 24 26 7 18 6 21 9 9 18 6 19 15 16 21 3 14 13 10 25 13 17 24 7 20 14 14 9 21 5 18 20 20 19 10 5 18 18 21 9 22 20 19 7 15 26 20 10 17 17 19 8 23 8 9 9 5 20 3 20 11 6 23 16 8 26 14 17 4 8 25 14 13 25 14 8 5 20 21 4 18 14 25",
+        "umbral1_": 68,
+        "umbral2_": 140,
+        "umbral3_": 400,
+        "umbral1": 60,
+        "umbral2": 167,
+        "umbral3": 443
+    },
+    "4E2": {
+        "type": "eval",
+        "level": 4,
+        "command": "./practica2SG mapas/mapa75.map 1 4 11 47 0 6 47 4 9 51 19 33 29 31 33 31 54 43 51 67 59 68 57 29 47 16 68 6 29 4 3 32 14 25 57 20 41 35 47 27 38 71 68 47 53 10 18 10 60 11 16 38 62 45 22 47 39 37 57 39 57 30 66 21 26 60 68 5 6 14 49 66 26 4 4 17 63 19 40 28 57 38 50 39 69 69 54 21 55 47 26 51 12 33 66 62 24 17 67 26 51 71 44 49 64 32 69 29",
+        "umbral1_": 22,
+        "umbral2_": 60,
+        "umbral3_": 90,
+        "umbral1": 27,
+        "umbral2": 62,
+        "umbral3": 113
+    },
+    "4E3": {
+        "type": "eval",
+        "level": 4,
+        "command": "./practica2SG mapas/pinkworld.map 1 4 46 26 2 41 27 2 44 46 26 59 26 10 59 10 59 63 70 38 41 35 47 27 38 71 68 47 18 10 60 11 30 9 66 21 68 5 71 39 6 14 49 66 4 17 40 28 50 39 69 69 12 33 66 62 67 26 51 71 44 49 64 32 69 29 68 36",
+        "umbral1_": 20,
+        "umbral2_": 30,
+        "umbral3_": 50,
+        "umbral1": 17,
+        "umbral2": 25,
+        "umbral3": 40
+    }
+}
