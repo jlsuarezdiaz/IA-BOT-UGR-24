@@ -9,7 +9,7 @@ Bot used during Artificial Intelligence practices at UGR during the course 2023/
 - `slurm`
 - ...
 
-## Descripción
+## Description
 
 This bot is designed to be run on a cluster that uses `slurm` as a queue manager. The bot is a permanent process (the `bot.py` scripts) that runs on a cluster node, and receives user requests through `Telegram`. It is responsible for managing requests, and sending them to the queue manager to be executed in the cluster one by one.
 
